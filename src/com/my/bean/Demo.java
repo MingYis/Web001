@@ -28,6 +28,10 @@ public class Demo implements UserService {
         System.out.println("list1 = " + list1);
         System.out.println("args = " + Arrays.deepToString(args));
         System.out.println("list1 = " + list1);
+        System.out.println("list1 = " + list1);
+        for (String s : list1) {
+            System.out.println(s);
+        }
     }
 
     public void a(){
